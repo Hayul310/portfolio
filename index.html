@@ -3,96 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>최윤후의 포트폴리오</title>
+    <title>박보영 팬 페이지</title>
     <style>
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
-            background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+            background: linear-gradient(135deg, #ffe9f5 0%, #b2f7ef 100%);
             margin: 0;
             padding: 0;
         }
         .container {
-            max-width: 600px;
-            margin: 60px auto;
-            background: rgba(255,255,255,0.9);
-            border-radius: 16px;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-            padding: 40px;
+            max-width: 700px;
+            margin: 40px auto;
+            background: rgba(255,255,255,0.95);
+            border-radius: 18px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            padding: 40px 24px;
             text-align: center;
         }
         .profile-img {
-            width: 120px;
-            height: 120px;
+            width: 140px;
+            height: 140px;
             border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 20px;
-            border: 4px solid #43c6ac;
+            margin-bottom: 18px;
+            border: 4px solid #b2f7ef;
         }
         h1 {
             margin-bottom: 10px;
-            color: #43c6ac;
+            color: #b2f7ef;
         }
         .tagline {
             font-size: 1.2em;
             color: #888;
             margin-bottom: 24px;
         }
-        ul {
-            list-style: none;
-            padding: 0;
-            margin-bottom: 24px;
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            justify-content: center;
+            margin-top: 28px;
         }
-        li {
-            margin-bottom: 8px;
+        .gallery img {
+            width: 110px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.08);
         }
         .sns a {
             margin: 0 8px;
             text-decoration: none;
-            color: #43c6ac;
+            color: #b2f7ef;
             font-size: 1.4em;
         }
         .sns a:hover {
-            color: #f8ffae;
+            color: #ffe9f5;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="프로필 이미지" class="profile-img">
-        <h1>최윤후</h1>
-        <div class="tagline">👨‍💻 개발자 & 커피 애호가 & 고양이 집사</div>
-        <h2>About Me</h2>
-        <ul>
-            <li>🌱 새로운 기술 배우기 좋아함</li>
-            <li>☕ 하루 한 잔 커피는 필수!</li>
-            <li>🐱 고양이와 함께 코딩</li>
-            <li>🎮 게임 개발에도 관심 있음</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Park_Bo-young_in_2019.jpg" alt="박보영 프로필" class="profile-img">
+        <h1>박보영 팬 페이지</h1>
+        <div class="tagline">🌸 배우 박보영을 응원하는 팬 페이지입니다!</div>
+        <h2>박보영 소개</h2>
+        <ul style="list-style:none; padding:0;">
+            <li>🎬 대표작: <b>과속스캔들</b>, <b>늑대소년</b>, <b>오 나의 귀신님</b>, <b>힘쎈여자 도봉순</b></li>
+            <li>🏆 다수의 영화·드라마·예능에서 활약</li>
+            <li>😊 밝고 사랑스러운 이미지로 많은 팬 보유</li>
         </ul>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>React, Vue</li>
-            <li>Node.js, Express</li>
-            <li>Git & GitHub</li>
-        </ul>
-        <h2>Contact</h2>
-        <div class="sns">
-            <a href="mailto:your.email@example.com" title="이메일">📧</a>
-            <a href="https://github.com/" target="_blank" title="GitHub">🐙</a>
-            <a href="https://instagram.com/" target="_blank" title="Instagram">📸</a>
-        </div>
         <h2>사진 갤러리</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 24px;">
-            <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="여자 사진1" style="width:80px; border-radius:10px;">
-            <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="여자 사진2" style="width:80px; border-radius:10px;">
-            <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="여자 사진3" style="width:80px; border-radius:10px;">
-            <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="여자 사진4" style="width:80px; border-radius:10px;">
-            <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="여자 사진5" style="width:80px; border-radius:10px;">
-            <img src="https://randomuser.me/api/portraits/women/6.jpg" alt="여자 사진6" style="width:80px; border-radius:10px;">
-            <img src="https://randomuser.me/api/portraits/women/7.jpg" alt="여자 사진7" style="width:80px; border-radius:10px;">
-            <img src="https://randomuser.me/api/portraits/women/8.jpg" alt="여자 사진8" style="width:80px; border-radius:10px;">
-            <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="여자 사진9" style="width:80px; border-radius:10px;">
-            <img src="https://randomuser.me/api/portraits/women/10.jpg" alt="여자 사진10" style="width:80px; border-radius:10px;">
+        <div class="gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Park_Bo-young_in_2019.jpg" alt="박보영1">
+            <img src="https://img.kbs.co.kr/kbs/2022/03/20220310145352_1.jpg" alt="박보영2">
+            <img src="https://img.hankyung.com/photo/202304/01.33048436.1.jpg" alt="박보영3">
+            <img src="https://cdn.topstarnews.net/news/photo/202304/15357441_1070_20230418160301.jpg" alt="박보영4">
+            <img src="https://img.etoday.co.kr/pto_db/2022/03/20220310145352_1.jpg" alt="박보영5">
+            <img src="https://img.tenasia.hankyung.com/webwp_kr/wp-content/uploads/2023/04/20230418160301_15357441_1070_1.jpg" alt="박보영6">
+            <img src="https://img.khan.co.kr/news/2023/04/18/l_2023041801002077600170731.jpg" alt="박보영7">
+            <img src="https://img.kbs.co.kr/kbs/2022/03/20220310145352_1.jpg" alt="박보영8">
+            <img src="https://img.hankyung.com/photo/202304/01.33048436.1.jpg" alt="박보영9">
+            <img src="https://cdn.topstarnews.net/news/photo/202304/15357441_1070_20230418160301.jpg" alt="박보영10">
+        </div>
+        <h2>팬 SNS</h2>
+        <div class="sns">
+            <a href="https://instagram.com/boyoung0212_official" target="_blank" title="박보영 인스타그램">📸</a>
+            <a href="https://twitter.com/hashtag/박보영" target="_blank" title="트위터 해시태그">🐦</a>
         </div>
     </div>
 </body>
